@@ -1,0 +1,23 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Conway's Game of Life</title>
+  
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./conwaylife.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body style = "background-color:black;">
+    <canvas id="gameWorld" width="1024" height="768" style="background: black; border: 1px solid black" tabindex="0" autofocus></canvas>
+    <div>
+        <label for="speed" style="font-size:32px;">🐢</label>
+        <input type="range" id="speed" min="1" max="120" value="30" step="1">
+        <label for="speed" style="font-size:32px;">🐇</label>
+    </div>
+</body>
+</html>
